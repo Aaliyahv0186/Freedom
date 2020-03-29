@@ -5,8 +5,58 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .pink-background{
+        background-color: pink;
+      }
+      .box{
+        border-color: grey;
+        border-width: 10px;
+        border-style: solid;
+        text-align: center;
+      }
+      .pink-box{
+        background-color: hotpink;
+        p0adding: 10px;
+      }
+      .M {
+        margin: 20px;
+        width: 100px;
+        height: 100px;
+        background: transparent;
+        animation: M 4s ease 1s infinite alternate;
+      }
+      @keyframes M {
+        from {transform:rotate(0deg);}
+        to {transform:rotate(360deg);}
+      }
+      #triangle{
+  width: 425px;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid pink;
+  border-top: 40px solid pink;
+}
+      </style>
   </head>
   <body>
+    <div class="box pink-box">
+      <h5 class="box pink-box">Freedom Project</h5>
+    <div class="pink-background">
+      <p>Mechanical Engineering</p>
+      <ul>
+        <li>Girls vs. Boys</li>
+        <li>Girls in M.E.</li>
+        <li>Hedy Lamarr</li>
+      </ul>
+      </div>
+    <div class="box"></div>
+      <div class="M">
+      Mechanical Engineering
+    </div>
+     <div id="triangle"></div>
+     <div class="tri"></div>
     <script src="script.js"></script>
   </body>
 </html>
