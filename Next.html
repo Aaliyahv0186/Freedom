@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Mechanical Engineering</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			margin: 0;
+		}
+
+
+		.header h1 {
+			font-size: 40px;
+		}
+
+		.navbar {
+			overflow: hidden;
+			background-color: pink;
+			position: fixed;
+			width: 100%;
+		}
+
+		.navbar a {
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 20px;
+			text-decoration: none;
+		}
+
+		.navbar a.right {
+			float: right;
+		}
+
+
+		.navbar a:hover {
+			background-color: hotpink;
+			color: white;
+		}
+
+		.row {
+			display: -ms-flexbox;
+			/* IE10 */
+			display: flex;
+			-ms-flex-wrap: wrap;
+			/* IE10 */
+			flex-wrap: wrap;
+		}
+
+		.side {
+			-ms-flex: 30%;
+			/* IE10 */
+			flex: 30%;
+			background-color: #f1f1f1;
+			padding: 40px;
+		}
+		.main {
+			-ms-flex: 70%;
+			/* IE10 */
+			flex: 70%;
+			background-color: white;
+			padding: 40px;
+		}
+
+ul {
+    list-style-image: url('https://lh3.googleusercontent.com/proxy/qIO2tIKLBXtEFHOLf8dxM2CNodONnYXdLdAKf8w9cxnPcmDs67WwyOkPDbCdnwoiA1iTNA6Bc7qgw4qwr0fF9Ge75h4kKImCjiP58DuURjra0AsQly-gMEU');
+}
+
+		.footer {
+			padding: 20px;
+			text-align: center;
+			background: pink;
+			color: white;
+			overflow: hidden;
+		}
+
+		@media screen and (max-width: 700px) {
+			.row {
+				flex-direction: column;
+			}
+		}
+
+		@media screen and (max-width: 400px) {
+			.navbar a {
+				float: none;
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="navbar">
+    <a href="index.html">Back</a>
+    <a href="Sources.html">Sources</a>
+    <a href="Memes.html">CS Memes</a>
+	</div>
+
+	<div class="row">
+		<div class="side">
+			<h2>On this Random Facts page</h2>
+      <li> Salary </li>
+      <li> Females who made history </li>
+		</div>
+		<div class="main">
+      <h2 id="More_info">Salary</h2>
+			<p>Recent studies have found that in the United States, women earn between 71-74 cents for every dollar earned by men</p>
+			<br>
+  </div>
+</div>
+
+<div class="main">
+      <h2 id="More_info">Females who made history</h2>
+		
+    	<p>Lillian Moller Gilbreth: She became the first female member of the American Society of Mechanical Engineers in 1926.</p>
+      
+      <p>Stephanie Louise Kwolek: She produced bulletproof vests, radial tires, airplane fuselages and fiber optic cables, and she was also named in the National Women’s Hall of Fame in 2003</p>
+      
+      <p>Mandy Anderson: She invented the windshield wiper in New York in 1903</p>
+
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>------------------------------------------------------------</h2>
+</div>
+
+</body>
+</html>
